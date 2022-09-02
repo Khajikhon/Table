@@ -4,7 +4,7 @@ const initialState = []
 function stateReducer(state = initialState, action) {
       if(action.type === "addTable"){
         let currentTable = [
-          ...state,
+          ...state
         ]
         currentTable.push(action.payload )
             return state = currentTable

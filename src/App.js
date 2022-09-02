@@ -30,7 +30,7 @@ function App() {
   
   return (
     <div className='conteiner '>
-    <div className='row mt-5 '>
+    <div className='row m-3 m-2 '>
       <div className='col-2'>
         <input onInput={val => setName(val.target.value)} type={"text"} placeholder="Name"/>
       </div>
